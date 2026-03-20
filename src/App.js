@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/website.github.io">
+      <BrowserRouter basename="/my-portfolio">
         <Routes>
           <Route path="/" element={<Portfolio />} />
         </Routes>
