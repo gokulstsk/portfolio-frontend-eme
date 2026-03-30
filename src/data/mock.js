@@ -52,11 +52,19 @@ export const mockExperience = [
 
 export const mockProjects = [
   {
+    title: "Resilient Job Processing System",
+    description:
+      "Resilient Job Processing System is a backend application built with Node.js, Express.js, BullMQ, and MySQL for reliable asynchronous job processing using a queue-based architecture.It ensures fault tolerance through exponential retries, idempotency to prevent duplicates, and failure handling with dead-letter queues. The system improves performance, scalability, and reliability when dealing with unreliable external services.",
+    techStack: ["Node.js", "Express.js", "BullMQ", "MySQL"],
+    githubUrl: "https://github.com/gokulstsk/Resilient-Job-Processing-System",
+    liveUrl: "#",
+  },
+  {
     title: "Github Analytics SaaS Dashboard",
     description:
       "Built a full-stack SaaS analytics platform using React and Node.js with secure GitHub OAuth token-based authentication and protected REST APIs. Integrated the GitHub API to fetch and process repository insights (commits, contributors, languages, PRs), implementing backend token validation and middleware-based route protection. Developed interactive data visualizations using Recharts with a responsive UI built.",
     techStack: ["React", "Node.js", "GitHub OAuth", "REST APIs", "Recharts"],
-    githubUrl: "https://github.com/gokulstsk/github-analytics-dashboard",
+    githubUrl: "https://github.com/gokulstsk/GitHub-Analytics-SaaS-Dashboard",
     liveUrl: "#",
   },
   {

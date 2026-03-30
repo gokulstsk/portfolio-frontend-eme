@@ -29,7 +29,7 @@ const Footer = () => {
                 <Github size={20} />
                 <span>GitHub</span>
               </Button>
-              <Button variant="ghost" size="sm" className="social-link" onClick ={() => window.open("mailto:gokulstsk@gmail.com")}>
+              <Button variant="ghost" size="sm" className="social-link" onClick ={() => window.open("mailto:gokul.sr.dev@gmail.com")}>
                 <Mail size={20} />
                 <span>Mail</span>
               </Button>

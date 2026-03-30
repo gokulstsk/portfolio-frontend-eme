@@ -16,7 +16,7 @@ const ProjectCard = ({ project }) => {
   }
   
   return (
-    <Card className="project-card">
+    <Card className="project-card" onClick={() => window.open(project.githubUrl, '_blank')}>
       {/* <div className="project-image-wrapper">
         <img 
           src={project.image} 
@@ -35,7 +35,7 @@ const ProjectCard = ({ project }) => {
         </div>
         
         <div className="project-links">
-          <Button variant="ghost" size="sm" className="project-link-btn" onClick={() => window.open(project.githubUrl, '_blank')}>
+          <Button variant="ghost" size="sm" className="project-link-btn" >
             <Github size={16} />
             <span>View Code</span>
           </Button>
